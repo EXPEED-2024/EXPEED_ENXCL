@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href=""><img src="z.png" alt="" height="100px" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Courses</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">PHP</a></li>
+                  <li><a class="dropdown-item" href="#">Java</a></li>
+                  <li><a class="dropdown-item" href="#">C</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+      <div class="container mt-3">
+        <h2>Table </h2>
+        
+        <table class="table">
+          <thead class="table-dark">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 style="text-align: center;">Application form</h2>
+        <form action="">
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+          </div>
+          <div class="mb-3">
+            
+            <label for="phno" class="form-label">Phone Number:</label>
+            <input type="text" class="form-control" id="phno" placeholder="Enter phno" name="phno">
+          </div>
+          <label for="comment">Comments:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="alert alert-success">
+          <strong>Success!</strong> The form is submitted.
+        </div>
+        
+        <button type="button" class="btn btn-danger " data-bs-toggle="popover" title="DELETE" data-bs-content="Some content inside the popover">Danger<span class="badge bg-danger">*</span></button>
+        <div class="card img-fluid bg-dark" style="width:400px">
+          <img class="card-img-top" src="https://lionsgate.brightspotcdn.com/59/e8/576c91ae47e4aa7fd6240dc48674/john-wick-chapter-1-movies-poster-01.jpg" alt="Card image" style="width:50% ">
+          <div class="card-img">
+            <h4 class="card-title text-light">John Wick</h4>
+            <p class="card-text text-light">John Wick is an American neo-noir action film series and media franchise created by Derek Kolstad. It centers around the titular character, a legendary hitman who is reluctantly drawn back into the criminal underworld after retiring. </p>
+            <a href="#" class="btn btn-primary">Home</a>
+          </div>
+        </div>
+      </div>
+     
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="62537736jdi۰۱.jpeg" alt="62" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="85962702_p0.jpg" alt="85" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="87538459_p1.png" alt="87" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="90738662_p0.jpg" alt="90"  class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+ 
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<br><br>
+
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#myModal"  title="EROR!">
+  CLICK
+</button>
+
+
+<div class="modal" id="myModal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      
+      <div class="modal-header">
+        <h4 class="modal-title ">ERROR</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+     
+
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<footer class="bg-dark">
+<ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">AK47</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">AR15</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">M16A4</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">M416</a>
+  </li>
+</ul>
+<br>
+<ul class="nav nav-pills justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">PPK</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">C96</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">M1934</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">DP28</a>
+  </li>
+</ul>
+</footer>
+       
+</body>
+</html>

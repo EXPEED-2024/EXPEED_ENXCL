@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="eg.css">
+    <script src="eg.js"></script>
+</head>
+<body>
+    
+    
+    
+    <form action="" method="post" id="myForm" onsubmit="return validateForm()">
+        <div>
+           <center> <h2>Form Validation</h2></center>
+        </div>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" >
+        <span id="nameError" class="error"></span><br>
+        <hr>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname">
+        <span id="lnameError" class="error"></span><br>
+        <hr>
+        <label for="pno">Phone number:</label><br>
+        <input type="text" id="pno" name="pno">
+        <span id="phError" class="error"></span><br>
+        <hr>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email">
+        <span id="emailError" class="error"></span><br>
+        <hr>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password">
+        <span id="passError" class="error"></span><br>
+        <hr>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age">
+        <span id="ageError" class="error"></span><br>
+        <hr>
+    
+        <label for="address">Address:</label><br>
+        <textarea name="address" id="address" cols="20" rows="5"></textarea>
+        <span id="addError" class="error"></span><br>
+        <hr>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender">Male
+        <input type="radio" id="female" name="gender">Female
+        <span id="genderError" class="error"></span><br>
+        <hr>
+        <label for="skills">Skills:</label><br>
+        <input type="checkbox" id="cpp" name="skills">C++
+        <input type="checkbox" id="java" name="skills">Java 
+        <input type="checkbox" id="c" name="skills">C
+        <br>
+        <input type="checkbox" id="csharp" name="skills">C#
+        <input type="checkbox" id="python" name="skills">Python
+        <input type="checkbox" id="javascript" name="skills">Javascript
+        <span id="skillsError" class="error"></span><br>
+        <hr>
+        <label for="district">District:</label><br>
+        <select id="district" name="district">
+            <option value="">Select</option>
+            <option value="1">Thiruvananthapuram</option>
+            <option value="2">Kollam</option>
+            <option value="3">Alappuzha</option>
+            <option value="4">Pathanamthitta</option>
+            <option value="5">Kottayam</option>
+            <option value="6">Idukki</option>
+            <option value="7">Ernakulam</option>
+            <option value="8">Thrissur</option>
+            <option value="9">Palakkad</option>
+            <option value="10">Malappuram</option>
+            <option value="11">Kozhikode</option>
+            <option value="12">Wayanad</option>
+            <option value="13">Kannur</option>
+            <option value="14">Kasaragod</option>
+        </select>
+        <span id="districtError" class="error"></span><br><br>
+        <hr>
+       <center> <input type="submit" value="Submit" id="btn"></center>
+    </form>
+</body>
+</html>

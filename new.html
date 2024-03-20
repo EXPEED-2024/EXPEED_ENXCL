@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app form</title>
+</head>
+<body>
+    <h2>Application Form</h2>
+
+<form action="/submit" method="post">
+    <p>An application for employment is a standard business document that is prepared with questions deemed relevant by employers. It is used to determine the best candidate to fill a specific role within the company. Most companies provide such forms to anyone upon request, at which point it becomes the responsibility of the applicant to complete the form and return it to the employer for consideration. The completed and returned document notifies the company of the applicant's availability and desire to be employed as well as their qualifications and background so that a determination can be made as to the candidate's suitability to the position.</p>
+  <label for="name"> First Name:</label><br>
+  <input type="text" id="name" name="name" ><br>
+
+  <label for="lname"> Last Name:</label><br>
+  <input type="text" id="lname" name="lname" ><br>
+  
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  
+  <label for="dob">Date of Birth:</label><br>
+  <input type="date" id="dob" name="dob" ><br>
+
+  <label for="ph.no">phone number:</label><br>
+  <input type="text" id="pno" name="phone number"><br>
+
+  <label for="address">address:</label><br>
+  <input type="text" id="add" name="address"><br>
+
+  <label for="pincode">pincode:</label><br>
+  <input type="text" id="pin" name="pincode"><br>
+
+  
+  
+  <label for="gender">Gender:</label><br>
+  <input type="radio" name="gender">male <br>
+  <input type="radio" name="gender">female <br>
+
+  <label for="skills">skills</label><br>
+  <input type="checkbox" name="skills">c++
+  <input type="checkbox" name="skills">java <br>
+
+  <label for="district">district:</label>
+  <select id="district" name="district" required>
+    <option value="">Select</option>
+    <option value="1">Thiruvananthapuram</option>
+    <option value="2">Kollam</option>
+    <option value="3">Alappuzha</option>
+    <option value="4">Pathanamthitta</option>
+    <option value="5">Kottayam</option>
+    <option value="6">Idukki</option>
+    <option value="7">Ernakulam</option>
+    <option value="8">Thrissur</option>
+    <option value="9">Palakkad</option>
+    <option value="10">Malappuram</option>
+    <option value="11">Kozhikode</option>
+    <option value="12">Wayanad</option>
+    <option value="13">Kannur</option>
+    <option value="14">Kasaragod</option>
+    
+  </select><br>
+
+  
+  <label for="about me">about me:</label><br>
+  <textarea id="message" name="message"></textarea><br>
+  
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

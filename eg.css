@@ -1,0 +1,25 @@
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+form {
+    display: inline-block;
+   padding-left: 10px;
+   padding-right: 10px;
+    text-align: left; 
+    margin: 0 auto; 
+    border: 2px solid black;
+    width: 400px;
+    background-color:lightskyblue ;
+}
+body{
+    text-align: center; 
+    background-color:rgb(255, 255, 255) ;
+    align-content: flex-start;
+}
+#btn{
+    background-color:black;
+    color: white;
+    margin-bottom: 10px;
+}

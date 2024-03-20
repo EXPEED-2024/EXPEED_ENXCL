@@ -1,0 +1,133 @@
+header{
+    position: fixed;
+    background-color: black;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:rgb(255, 166, 0);
+}
+nav img{
+    padding-left: 1000px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+p {
+    color:rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+h2{
+    color: rgb(0, 0, 0); 
+    border: 2px solid rgb(255, 166, 0);
+     font-style: italic;
+      font-weight: bolder;
+      text-align: center;
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1.8;
+}
+.main{
+    border: 3px solid green;
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    position: relative;
+    
+    z-index: -1;
+    
+
+}
+.child{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left:600px ;
+}
+span{
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    color: orangered;
+}
+.div1 {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+  }
+  
+  .div2 {
+    padding: 10px;
+    border: 3px solid red;
+  }
+  
+  .div3 {
+    float: left;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+  }
+  
+  .div4 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+  }
+  .flex-container {
+    display: flex;
+    background-color: rgb(0, 232, 42);
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+ nav a:hover {
+    background-color: #ff0000;
+  }
+  
+  #link:link {
+    color: rgb(0, 0, 0);
+  }
+  #link:hover{
+    color: yellow;
+  }
+  
+ 
+  #link:visited {
+    color: green;
+  }
+  
+  
+  #link:active {
+    color: blue;
+  } 
+  @media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+    } 
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-image: url(robo.jpg);
+    padding: 10px;
+    justify-content: safe;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 255, 64, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
